@@ -1,21 +1,8 @@
 {
   "canisters": {
-    "http_sample_motoko_backend": {
+    "http_sample_motoko": {
       "main": "src/http_sample_motoko_backend/main.mo",
       "type": "motoko"
-    },
-    "http_sample_motoko_frontend": {
-      "dependencies": [
-        "http_sample_motoko_backend"
-      ],
-      "frontend": {
-        "entrypoint": "src/http_sample_motoko_frontend/src/index.html"
-      },
-      "source": [
-        "src/http_sample_motoko_frontend/assets",
-        "dist/http_sample_motoko_frontend/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
